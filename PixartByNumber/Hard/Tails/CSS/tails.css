@@ -1,0 +1,273 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: honeydew;
+}
+
+.mainHeader {
+  color: tomato;
+  margin: 2% auto;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-size: 7em;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  letter-spacing: 0.1em;
+}
+
+.mainBoard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.colorKey {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 2em;
+  height: 780px;
+}
+
+.pixelHolder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  width: 680px;
+  height: 660px;
+}
+
+.pixelColumn {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  font-size: xx-large;
+  margin: 0;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.pixel {
+  border: 1px solid lightgray;
+  width: 18px;
+  height: 18px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: medium;
+
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.colorOne {
+    width: 60px;
+    height: 60px;
+    background-color: rgb(43,43,43);
+    margin: 10px;
+}
+
+.colorTwo {
+    width: 60px;
+    height: 60px;
+    background-color: rgb(254,252,253);
+    margin: 10px;
+}
+
+.colorThree {
+    width: 60px;
+    height: 60px;
+    background-color: rgb(170,172,169);
+    margin: 10px;
+}
+
+.colorFour {
+    width: 60px;
+    height: 60px;
+    background-color: rgb(128,128,128);
+    margin: 10px;
+}
+
+.colorFive {
+    width: 60px;
+    height: 60px;
+    background-color: rgb(100,109,114);
+    margin: 10px;
+}
+
+.colorSix {
+    width: 60px;
+    height: 60px;
+    background-color: rgb(234,158,2);
+    margin: 10px;
+}
+
+.colorSeven {
+    width: 60px;
+    height: 60px;
+    background-color: rgb(255,113,1);
+    margin: 10px;
+}
+
+.colorEight {
+    width: 60px;
+    height: 60px;
+    background-color: rgb(139,69,18);
+    margin: 10px;
+}
+
+.colorNine {
+    width: 60px;
+    height: 60px;
+    background-color: rgb(254,0,0);
+    margin: 10px;
+}
+
+.colorTen {
+    width: 60px;
+    height: 60px;
+    background-color: rgb(139,1,1);
+    margin: 10px;
+}
+
+
+
+.onePixel {
+  border: 1px solid rgb(43,43,43);
+  background-color: rgb(43,43,43);
+  width: 18px;
+  height: 18px;
+  margin: 0;
+  padding: 0;
+
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.twoPixel {
+  border: 1px solid rgb(254,252,253);
+  background-color: rgb(254,252,253);
+  width: 18px;
+  height: 18px;
+  margin: 0;
+  padding: 0;
+
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.threePixel {
+  border: 1px solid rgb(170,172,169);
+  background-color: rgb(170,172,169);
+  width: 18px;
+  height: 18px;
+  margin: 0;
+  padding: 0;
+
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.fourPixel {
+  border: 1px solid rgb(128,128,128);
+  background-color: rgb(128,128,128);
+  width: 18px;
+  height: 18px;
+  margin: 0;
+  padding: 0;
+
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.fivePixel {
+  border: 1px solid rgb(100,109,114);
+  background-color: rgb(100,109,114);
+  width: 18px;
+  height: 18px;
+  margin: 0;
+  padding: 0;
+
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.sixPixel {
+  border: 1px solid rgb(234,158,2);
+  background-color: rgb(234,158,2);
+  width: 18px;
+  height: 18px;
+  margin: 0;
+  padding: 0;
+
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.sevenPixel {
+  border: 1px solid rgb(255,113,1);
+  background-color: rgb(255,113,1);
+  width: 18px;
+  height: 18px;
+  margin: 0;
+  padding: 0;
+
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.eightPixel {
+  border: 1px solid rgb(139,69,18);
+  background-color: rgb(139,69,18);
+  width: 18px;
+  height: 18px;
+  margin: 0;
+  padding: 0;
+
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.ninePixel {
+  border: 1px solid rgb(254,0,0);
+  background-color: rgb(254,0,0);
+  width: 18px;
+  height: 18px;
+  margin: 0;
+  padding: 0;
+
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.tenPixel {
+  border: 1px solid rgb(139,1,1);
+  background-color: rgb(139,1,1);
+  width: 18px;
+  height: 18px;
+  margin: 0;
+  padding: 0;
+
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.finished{
+  color: lawngreen;
+}
